@@ -1,0 +1,6 @@
+E:\nsbm project\computing group project\Backend\SLATS\SLATS_REF\bin\Debug\SLATS_REF.dll
+E:\nsbm project\computing group project\Backend\SLATS\SLATS_REF\bin\Debug\SLATS_REF.pdb
+E:\nsbm project\computing group project\Backend\SLATS\SLATS_REF\obj\Debug\SLATS_REF.csproj.AssemblyReference.cache
+E:\nsbm project\computing group project\Backend\SLATS\SLATS_REF\obj\Debug\SLATS_REF.csproj.CoreCompileInputs.cache
+E:\nsbm project\computing group project\Backend\SLATS\SLATS_REF\obj\Debug\SLATS_REF.dll
+E:\nsbm project\computing group project\Backend\SLATS\SLATS_REF\obj\Debug\SLATS_REF.pdb
