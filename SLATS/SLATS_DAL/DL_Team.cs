@@ -100,5 +100,65 @@ namespace SLATS_DAL
         }
         #endregion
 
+        public DataTable UpdateTeam(DB_Handle oDB_Handle, REF_Team oREF_Team)
+        {
+            string sqlQuery;
+            DataTable oDataTable = new DataTable();
+            SqlCommand oSqlCommand;
+            SqlDataAdapter oSqlDataAdapter;
+            try
+            {
+                sqlQuery = "SP_UPDATE_Team";
+                oSqlCommand = new SqlCommand();
+                oSqlCommand.Parameters.AddWithValue("@Team_ID", oREF_Team.Team_ID);
+                oSqlCommand.Parameters.AddWithValue("@Team_Name", oREF_Team.Team_Name);
+                oSqlCommand.Parameters.AddWithValue("@TargetLocation", oREF_Team.TargetLocation);
+                oSqlCommand.Parameters.AddWithValue("@Description", oREF_Team.Description);
+                oSqlCommand.Parameters.AddWithValue("@Longitude", oREF_Team.Longitude);
+                oSqlCommand.Parameters.AddWithValue("@Latitude", oREF_Team.Latitude);
+                oSqlCommand.CommandText = sqlQuery;
+                oSqlCommand.CommandType = CommandType.StoredProcedure;
+                oSqlCommand.Connection = oDB_Handle.GetConnection();
+                oSqlCommand.Transaction = oDB_Handle.GetTransaction();
+                oSqlDataAdapter = new SqlDataAdapter(oSqlCommand);
+                oSqlDataAdapter.Fill(oDataTable);
+
+                return oDataTable;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public DataTable DeleteTeam(DB_Handle oDB_Handle, REF_Team oREF_Team)
+        {
+            string sqlQuery;
+            DataTable oDataTable = new DataTable();
+            SqlCommand oSqlCommand;
+            SqlDataAdapter oSqlDataAdapter;
+            try
+            {
+                sqlQuery = "SP_DELETE_Team";
+                oSqlCommand = new SqlCommand();
+                oSqlCommand.Parameters.AddWithValue("@Team_ID", oREF_Team.Team_ID);;   
+                oSqlCommand.CommandText = sqlQuery;
+                oSqlCommand.CommandType = CommandType.StoredProcedure;
+                oSqlCommand.Connection = oDB_Handle.GetConnection();
+                oSqlCommand.Transaction = oDB_Handle.GetTransaction();
+                oSqlDataAdapter = new SqlDataAdapter(oSqlCommand);
+                oSqlDataAdapter.Fill(oDataTable);
+
+                return oDataTable;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
     }
+
+    
+
 }

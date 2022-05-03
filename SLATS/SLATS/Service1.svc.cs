@@ -55,5 +55,106 @@ namespace SLATS
             throw new NotImplementedException();
         }
         #endregion
+
+        public string UpdateTeam(REF_Team oREF_Team)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                BL_Team oBL_Team = new BL_Team();
+                
+               dt = oBL_Team.UpdateTeam(null, oREF_Team);
+
+                return JsonConvert.SerializeObject(dt);
+            }
+            catch (Exception ex)
+            {
+                return ex.ToString();
+            }
+        }
+
+        public string DeleteTeam(REF_Team oREF_Team)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                BL_Team oBL_Team = new BL_Team();              
+                dt = oBL_Team.DeleteTeam(null, oREF_Team);
+
+                return JsonConvert.SerializeObject(dt);
+            }
+            catch (Exception ex)
+            {
+                return ex.ToString();
+            }
+        }
+        public string LoadSoldiers()
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                BL_Soldier oBL_Soldier = new BL_Soldier();
+
+                dt = oBL_Soldier.LoadSoldiers(null);
+
+                return JsonConvert.SerializeObject(dt);
+            }
+            catch (Exception ex)
+            {
+                return ex.ToString();
+            }
+        }
+
+        public string SaveSoldier(REF_Soldier oREF_Soldier)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                BL_Soldier oBL_Soldier = new BL_Soldier();
+               
+                dt = oBL_Soldier.SaveSoldier(null, oREF_Soldier);
+
+                return JsonConvert.SerializeObject(dt);
+            }
+            catch (Exception ex)
+            {
+                return ex.ToString();
+            }
+        }
+
+        public string UpdateSoldier(REF_Soldier oREF_Soldier)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                BL_Soldier oBL_Soldier = new BL_Soldier();
+           
+                dt = oBL_Soldier.UpdateSoldier(null, oREF_Soldier);
+
+                return JsonConvert.SerializeObject(dt);
+            }
+            catch (Exception ex)
+            {
+                return ex.ToString();
+            }
+        }
+
+        public string DeleteSoldier(REF_Soldier oREF_Soldier)
+        {
+            DataTable dt = new DataTable();
+            try
+            {
+                BL_Soldier oBL_Soldier = new BL_Soldier();
+                dt = oBL_Soldier.DeleteSoldier(null, oREF_Soldier);
+
+                return JsonConvert.SerializeObject(dt);
+            }
+            catch (Exception ex)
+            {
+                return ex.ToString();
+            }
+        }
+
+
     }
 }

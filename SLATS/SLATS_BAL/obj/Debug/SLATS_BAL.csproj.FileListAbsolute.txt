@@ -9,3 +9,14 @@ E:\nsbm project\computing group project\Backend\SLATS\SLATS_BAL\obj\Debug\SLATS_
 E:\nsbm project\computing group project\Backend\SLATS\SLATS_BAL\obj\Debug\SLATS_BAL.csproj.CopyComplete
 E:\nsbm project\computing group project\Backend\SLATS\SLATS_BAL\obj\Debug\SLATS_BAL.dll
 E:\nsbm project\computing group project\Backend\SLATS\SLATS_BAL\obj\Debug\SLATS_BAL.pdb
+D:\NSBM 2nd Year\SLATS_GitHub\Project_SLATS\SLATS\SLATS_BAL\obj\Debug\SLATS_BAL.csproj.AssemblyReference.cache
+D:\NSBM 2nd Year\SLATS_GitHub\Project_SLATS\SLATS\SLATS_BAL\obj\Debug\SLATS_BAL.csproj.CoreCompileInputs.cache
+D:\NSBM 2nd Year\SLATS_GitHub\Project_SLATS\SLATS\SLATS_BAL\obj\Debug\SLATS_BAL.dll
+D:\NSBM 2nd Year\SLATS_GitHub\Project_SLATS\SLATS\SLATS_BAL\obj\Debug\SLATS_BAL.pdb
+D:\NSBM 2nd Year\SLATS_GitHub\Project_SLATS\SLATS\SLATS_BAL\bin\Debug\SLATS_BAL.dll
+D:\NSBM 2nd Year\SLATS_GitHub\Project_SLATS\SLATS\SLATS_BAL\bin\Debug\SLATS_BAL.pdb
+D:\NSBM 2nd Year\SLATS_GitHub\Project_SLATS\SLATS\SLATS_BAL\bin\Debug\SLATS_DAL.dll
+D:\NSBM 2nd Year\SLATS_GitHub\Project_SLATS\SLATS\SLATS_BAL\bin\Debug\SLATS_REF.dll
+D:\NSBM 2nd Year\SLATS_GitHub\Project_SLATS\SLATS\SLATS_BAL\bin\Debug\SLATS_DAL.pdb
+D:\NSBM 2nd Year\SLATS_GitHub\Project_SLATS\SLATS\SLATS_BAL\bin\Debug\SLATS_REF.pdb
+D:\NSBM 2nd Year\SLATS_GitHub\Project_SLATS\SLATS\SLATS_BAL\obj\Debug\SLATS_BAL.csproj.CopyComplete
